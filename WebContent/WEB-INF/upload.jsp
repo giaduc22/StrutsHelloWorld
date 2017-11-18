@@ -14,8 +14,17 @@
 		<s:submit />
 	</s:form>
 
-	<s:iterator value="upload" var="u">
+	<s:property value="upload" />
+	<br />
+	<s:property value="uploadContentType" />
+	<br />
+	<s:property value="uploadFileName" />
+	<br />
+	<img alt="" src="userimages/<s:property value="uploadFileName" />" width="100" height="100"/>
+
+	<%-- <s:iterator value="upload" var="u">
 		<s:property value="u" />
+		<img alt="" src="<s:property value="u" />"/>
 		<br />
 	</s:iterator>
 	<s:iterator value="uploadContentType" var="ct">
@@ -25,7 +34,7 @@
 	<s:iterator value="uploadFileName" var="fn">
 		<s:property value="fn" />
 		<br />
-	</s:iterator>
+	</s:iterator> --%>
 
 </body>
 </html>

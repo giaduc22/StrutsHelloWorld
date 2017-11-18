@@ -30,6 +30,16 @@
 			<result name="input">register.jsp</result>
 		</action>
 
+		<action name="upload" class="action.Upload">
+			<interceptor-ref name="timer" />
+			<interceptor-ref name="logger" />
+			<interceptor-ref name="defaultStack">
+				<param name="exception.logEnabled">true</param>
+				<param name="exception.logLevel">ERROR</param>
+			</interceptor-ref>
+			<result name="input">WEB-INF/upload.jsp</result>
+		</action>
+
 	</package>
 
 </struts>

@@ -13,6 +13,8 @@
 		<a href="<s:url action='register_input'  />">Please register</a> for
 		our prize drawing.
 	</p>
-
+	<p>
+		<a href="<s:url action='upload'  />">File upload</a>
+	</p>
 </body>
 </html>

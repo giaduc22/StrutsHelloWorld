@@ -9,12 +9,6 @@
 </head>
 <body>
 	<h1>Welcome To Struts 2!</h1>
-	<p>
-		<a href="<s:url action='register_input'  />">Please register</a> for
-		our prize drawing.
-	</p>
-	<p>
-		<a href="<s:url action='upload'  />">File upload</a>
-	</p>
+	<p><a href="<s:url action='goodbye'/>">Goodbye World</a></p>
 </body>
 </html>

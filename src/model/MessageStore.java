@@ -5,7 +5,7 @@ public class MessageStore {
 	private String message;
 
 	public MessageStore() {
-		message = "Hello ";
+		message = "Goodbye World!";
 	}
 
 	public String getMessage() {

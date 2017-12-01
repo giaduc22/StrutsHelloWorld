@@ -1,0 +1,9 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+
+<%@ taglib prefix="s" uri="/struts-tags"%>
+<footer class="main-color text-center">
+	<p>Địa chỉ Showroom: 14K1 Thái Hà mới</p>
+	<p>Cách ngã tư Thái Hà 200m Bản đồ</p>
+	<p>Làm việc cả tuần từ 8h30”AM đến 7h30”PM</p>
+	<p>Hotline: 094 761 1142</p>
+</footer>

@@ -5,27 +5,23 @@
        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
 <tiles-definitions>
 
-	<definition name="baseLayout" template="/BaseLayout.jsp">
+	<definition name="baseLayout" template="/tiles/BaseLayout.jsp">
 		<put-attribute name="title" value="" />
-		<put-attribute name="header" value="/Header.jsp" />
-		<put-attribute name="menu" value="/Menu.jsp" />
-		<put-attribute name="breadcrumb" value="/Breadcrumb.jsp" />
+		<put-attribute name="header" value="/tiles/Header.jsp" />
+		<put-attribute name="menu" value="/tiles/Menu.jsp" />
+		<put-attribute name="slide" value="/tiles/Slide.jsp" />
 		<put-attribute name="body" value="" />
-		<put-attribute name="footer" value="/Footer.jsp" />
-		<put-list-attribute name="javascripts">
-			<add-attribute value="" />
-		</put-list-attribute>
-		<put-list-attribute name="stylesheets">
-			<add-attribute value="/resources/css/bootraps/bootstrap.css" />
-			<add-attribute value="/resources/css/bootraps/bootstrap-responsive.css" />
-			<add-attribute value="/resources/css/main.css"/>
-			<add-attribute value="/resources/css/style.css" />
-		</put-list-attribute>
+		<put-attribute name="footer" value="/tiles/Footer.jsp" />
 	</definition>
 
 	<definition name="welcome" extends="baseLayout">
 		<put-attribute name="title" value="Welcome" />
-		<put-attribute name="body" value="/Welcome.jsp" />
+		<put-attribute name="body" value="/tiles/Welcome.jsp" />
+	</definition>
+	
+	<definition name="detail" extends="baseLayout">
+		<put-attribute name="title" value="Detail product" />
+		<put-attribute name="body" value="/tiles/Detail.jsp" />
 	</definition>
 
 </tiles-definitions>

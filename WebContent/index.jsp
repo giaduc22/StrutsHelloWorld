@@ -10,5 +10,6 @@
 <body>
 	<h1>Welcome To Struts 2!</h1>
 	<p><a href="<s:url action='goodbye'/>">Goodbye World</a></p>
+	<p><a href="<s:url action='detail'/>">Detail</a></p>
 </body>
 </html>

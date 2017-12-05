@@ -1,5 +1,4 @@
-<% response.sendRedirect("index"); %>
-<%-- <%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html>
@@ -13,4 +12,4 @@
 	<p><a href="<s:url action='goodbye'/>">Goodbye World</a></p>
 	<p><a href="<s:url action='detail'/>">Detail</a></p>
 </body>
-</html> --%>
+</html>

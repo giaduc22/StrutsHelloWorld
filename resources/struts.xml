@@ -6,22 +6,15 @@
 <struts>
 	<constant name="struts.devMode" value="true" />
 	<constant name="struts.convention.classes.reload" value="true" />
+	<constant name="struts.convention.default.parent.package" value="tiles-default"/>
 	<constant name="struts.convention.result.path" value="/tiles/" />
 
-	<package name="basicstruts2" extends="struts-default">
+	<package name="basicstruts2" extends="tiles-default">
 
 		<result-types>
 			<result-type name="tiles"
 				class="org.apache.struts2.views.tiles.TilesResult" />
 		</result-types>
-
-		<action name="goodbye" class="action.GoodbyeWorldAction">
-			<result type="tiles">welcome</result>
-		</action>
-
-		<action name="detail" class="action.GoodbyeWorldAction">
-			<result type="tiles">detail</result>
-		</action>
 
 	</package>
 </struts>

@@ -26,4 +26,14 @@ public class HelloWorldAction extends ActionSupport {
 	public String detail() {
 		return SUCCESS;
 	}
+	
+	@Action(value = "/admin/home", results = { @Result(name = SUCCESS, type = "tiles", location = "admin.home") })
+	public String admin1() {
+		return SUCCESS;
+	}
+	
+	@Action(value = "/admin/category", results = { @Result(name = SUCCESS, type = "tiles", location = "admin.category") })
+	public String cateogy() {
+		return SUCCESS;
+	}
 }

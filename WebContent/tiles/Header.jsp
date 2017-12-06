@@ -38,7 +38,7 @@
 				</ul>
 				<ul class="nav pull-right">
 					<li class="divider-vertical"></li>
-					<li><a class="link4rum" href="#">Diễn đàn</a></li>
+					<li><a class="link4rum" href="">Login</a></li>
 				</ul>
 			</div>
 		</div>
